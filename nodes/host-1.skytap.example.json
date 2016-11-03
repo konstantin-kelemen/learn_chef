@@ -80,14 +80,14 @@
     "filesystem": {
       "/dev/mapper/centos-root": {
         "kb_size": "18348032",
-        "kb_used": "5015872",
-        "kb_available": "13332160",
+        "kb_used": "5042640",
+        "kb_available": "13305392",
         "percent_used": "28%",
         "mount": "/",
         "total_inodes": "18358272",
-        "inodes_used": "182287",
-        "inodes_available": "18175985",
-        "inodes_percent_used": "1%",
+        "inodes_used": "183690",
+        "inodes_available": "18174582",
+        "inodes_percent_used": "2%",
         "fs_type": "xfs",
         "mount_options": [
           "rw",
@@ -121,13 +121,13 @@
       },
       "tmpfs": {
         "kb_size": "101720",
-        "kb_used": "0",
-        "kb_available": "101720",
-        "percent_used": "0%",
-        "mount": "/run/user/0",
+        "kb_used": "16",
+        "kb_available": "101704",
+        "percent_used": "1%",
+        "mount": "/run/user/1000",
         "total_inodes": "127148",
-        "inodes_used": "1",
-        "inodes_available": "127147",
+        "inodes_used": "32",
+        "inodes_available": "127116",
         "inodes_percent_used": "1%",
         "fs_type": "tmpfs",
         "mount_options": [
@@ -137,7 +137,9 @@
           "relatime",
           "seclabel",
           "size=101720k",
-          "mode=700"
+          "mode=700",
+          "uid=1000",
+          "gid=1000"
         ]
       },
       "/dev/sda1": {
@@ -749,28 +751,28 @@
     },
     "memory": {
       "swap": {
-        "cached": "4880kB",
+        "cached": "6200kB",
         "total": "2097148kB",
-        "free": "1973820kB"
+        "free": "1957092kB"
       },
       "total": "1017184kB",
-      "free": "77068kB",
+      "free": "105032kB",
       "buffers": "0kB",
-      "cached": "308620kB",
-      "active": "317632kB",
-      "inactive": "455972kB",
-      "dirty": "12kB",
+      "cached": "282904kB",
+      "active": "344640kB",
+      "inactive": "393304kB",
+      "dirty": "1432kB",
       "writeback": "0kB",
-      "anon_pages": "460336kB",
-      "mapped": "36436kB",
-      "slab": "85996kB",
-      "slab_reclaimable": "40988kB",
-      "slab_unreclaim": "45008kB",
-      "page_tables": "26168kB",
+      "anon_pages": "449064kB",
+      "mapped": "39556kB",
+      "slab": "95776kB",
+      "slab_reclaimable": "51004kB",
+      "slab_unreclaim": "44772kB",
+      "page_tables": "26124kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "2605740kB",
-      "committed_as": "2570108kB",
+      "committed_as": "2570420kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "150552kB",
       "vmalloc_chunk": "34359585276kB"
@@ -992,15 +994,15 @@
         "interfaces": {
           "lo": {
             "rx": {
-              "bytes": "21182",
-              "packets": "236",
+              "bytes": "22290",
+              "packets": "246",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
             },
             "tx": {
-              "bytes": "21182",
-              "packets": "236",
+              "bytes": "22290",
+              "packets": "246",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
@@ -1010,16 +1012,16 @@
           "eno16777984": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "4144388",
-              "packets": "59581",
+              "bytes": "4321912",
+              "packets": "61455",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "176608116",
-              "packets": "119270",
+              "bytes": "181587318",
+              "packets": "122873",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -1074,10 +1076,10 @@
     "platform": "centos",
     "platform_version": "7.2.1511",
     "platform_family": "rhel",
-    "uptime_seconds": 10231,
-    "uptime": "2 hours 50 minutes 31 seconds",
-    "idletime_seconds": 9501,
-    "idletime": "2 hours 38 minutes 21 seconds",
+    "uptime_seconds": 12324,
+    "uptime": "3 hours 25 minutes 24 seconds",
+    "idletime_seconds": 11482,
+    "idletime": "3 hours 11 minutes 22 seconds",
     "virtualization": {
       "systems": {
         "vmware": "guest"
@@ -3738,13 +3740,13 @@
       "by_device": {
         "/dev/mapper/centos-root": {
           "kb_size": "18348032",
-          "kb_used": "5015872",
-          "kb_available": "13332160",
+          "kb_used": "5042640",
+          "kb_available": "13305392",
           "percent_used": "28%",
           "total_inodes": "18358272",
-          "inodes_used": "182287",
-          "inodes_available": "18175985",
-          "inodes_percent_used": "1%",
+          "inodes_used": "183690",
+          "inodes_available": "18174582",
+          "inodes_percent_used": "2%",
           "fs_type": "xfs",
           "mount_options": [
             "rw",
@@ -3783,12 +3785,12 @@
         },
         "tmpfs": {
           "kb_size": "101720",
-          "kb_used": "0",
-          "kb_available": "101720",
-          "percent_used": "0%",
+          "kb_used": "16",
+          "kb_available": "101704",
+          "percent_used": "1%",
           "total_inodes": "127148",
-          "inodes_used": "1",
-          "inodes_available": "127147",
+          "inodes_used": "32",
+          "inodes_available": "127116",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3798,14 +3800,15 @@
             "relatime",
             "seclabel",
             "size=101720k",
-            "mode=700"
+            "mode=700",
+            "uid=1000",
+            "gid=1000"
           ],
           "mounts": [
             "/dev/shm",
             "/run",
             "/sys/fs/cgroup",
-            "/run/user/1000",
-            "/run/user/0"
+            "/run/user/1000"
           ]
         },
         "/dev/sda1": {
@@ -4077,13 +4080,13 @@
       "by_mountpoint": {
         "/": {
           "kb_size": "18348032",
-          "kb_used": "5015872",
-          "kb_available": "13332160",
+          "kb_used": "5042640",
+          "kb_available": "13305392",
           "percent_used": "28%",
           "total_inodes": "18358272",
-          "inodes_used": "182287",
-          "inodes_available": "18175985",
-          "inodes_percent_used": "1%",
+          "inodes_used": "183690",
+          "inodes_available": "18174582",
+          "inodes_percent_used": "2%",
           "fs_type": "rootfs",
           "mount_options": [
             "rw"
@@ -4138,12 +4141,12 @@
         },
         "/run": {
           "kb_size": "508592",
-          "kb_used": "26296",
-          "kb_available": "482296",
+          "kb_used": "26268",
+          "kb_available": "482324",
           "percent_used": "6%",
           "total_inodes": "127148",
-          "inodes_used": "506",
-          "inodes_available": "126642",
+          "inodes_used": "497",
+          "inodes_available": "126651",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -4222,29 +4225,6 @@
             "mode=700",
             "uid=1000",
             "gid=1000"
-          ],
-          "devices": [
-            "tmpfs"
-          ]
-        },
-        "/run/user/0": {
-          "kb_size": "101720",
-          "kb_used": "0",
-          "kb_available": "101720",
-          "percent_used": "0%",
-          "total_inodes": "127148",
-          "inodes_used": "1",
-          "inodes_available": "127147",
-          "inodes_percent_used": "1%",
-          "fs_type": "tmpfs",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "relatime",
-            "seclabel",
-            "size=101720k",
-            "mode=700"
           ],
           "devices": [
             "tmpfs"
@@ -4579,14 +4559,14 @@
         "/dev/mapper/centos-root,/": {
           "device": "/dev/mapper/centos-root",
           "kb_size": "18348032",
-          "kb_used": "5015872",
-          "kb_available": "13332160",
+          "kb_used": "5042640",
+          "kb_available": "13305392",
           "percent_used": "28%",
           "mount": "/",
           "total_inodes": "18358272",
-          "inodes_used": "182287",
-          "inodes_available": "18175985",
-          "inodes_percent_used": "1%",
+          "inodes_used": "183690",
+          "inodes_available": "18174582",
+          "inodes_percent_used": "2%",
           "fs_type": "xfs",
           "mount_options": [
             "rw",
@@ -4641,13 +4621,13 @@
         "tmpfs,/run": {
           "device": "tmpfs",
           "kb_size": "508592",
-          "kb_used": "26296",
-          "kb_available": "482296",
+          "kb_used": "26268",
+          "kb_available": "482324",
           "percent_used": "6%",
           "mount": "/run",
           "total_inodes": "127148",
-          "inodes_used": "506",
-          "inodes_available": "126642",
+          "inodes_used": "497",
+          "inodes_available": "126651",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -4723,28 +4703,6 @@
             "mode=700",
             "uid=1000",
             "gid=1000"
-          ]
-        },
-        "tmpfs,/run/user/0": {
-          "device": "tmpfs",
-          "kb_size": "101720",
-          "kb_used": "0",
-          "kb_available": "101720",
-          "percent_used": "0%",
-          "mount": "/run/user/0",
-          "total_inodes": "127148",
-          "inodes_used": "1",
-          "inodes_available": "127147",
-          "inodes_percent_used": "1%",
-          "fs_type": "tmpfs",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "relatime",
-            "seclabel",
-            "size=101720k",
-            "mode=700"
           ]
         },
         "sysfs,/sys": {
@@ -5134,12 +5092,6 @@
     },
     "sessions": {
       "by_session": {
-        "12": {
-          "session": "12",
-          "uid": "0",
-          "user": "root",
-          "seat": null
-        },
         "1": {
           "session": "1",
           "uid": "1000",
@@ -5148,14 +5100,6 @@
         }
       },
       "by_user": {
-        "root": [
-          {
-            "session": "12",
-            "uid": "0",
-            "user": "root",
-            "seat": null
-          }
-        ],
         "skytap": [
           {
             "session": "1",
@@ -5166,7 +5110,7 @@
         ]
       }
     },
-    "ohai_time": 1478175863.6656468,
+    "ohai_time": 1478177954.5444384,
     "packages": {
       "cups-filters-libs": {
         "epoch": "0",
@@ -7861,6 +7805,13 @@
         "version": "0.9.36",
         "release": "1.el7",
         "installdate": "1458739042",
+        "arch": "x86_64"
+      },
+      "perl-TermReadKey": {
+        "epoch": "0",
+        "version": "2.30",
+        "release": "20.el7",
+        "installdate": "1478177149",
         "arch": "x86_64"
       },
       "libgdither": {
@@ -11335,6 +11286,13 @@
         "installdate": "1458739040",
         "arch": "x86_64"
       },
+      "git": {
+        "epoch": "0",
+        "version": "1.8.3.1",
+        "release": "6.el7_2.1",
+        "installdate": "1478177154",
+        "arch": "x86_64"
+      },
       "libodfgen": {
         "epoch": "0",
         "version": "0.1.4",
@@ -13057,6 +13015,13 @@
         "installdate": "1458739677",
         "arch": "x86_64"
       },
+      "perl-Error": {
+        "epoch": "1",
+        "version": "0.17020",
+        "release": "2.el7",
+        "installdate": "1478177149",
+        "arch": "noarch"
+      },
       "orc": {
         "epoch": "0",
         "version": "0.4.22",
@@ -13623,6 +13588,13 @@
         "release": "18.el7",
         "installdate": "1458739043",
         "arch": "x86_64"
+      },
+      "perl-Git": {
+        "epoch": "0",
+        "version": "1.8.3.1",
+        "release": "6.el7_2.1",
+        "installdate": "1478177155",
+        "arch": "noarch"
       },
       "gssdp": {
         "epoch": "0",
@@ -14470,7 +14442,7 @@
       "timezone": "PDT"
     },
     "vmware": {
-      "hosttime": "03 Nov 2016 05:24:31",
+      "hosttime": "03 Nov 2016 05:59:15",
       "speed": "2667 MHz",
       "sessionid": "0x98f6202ed6f72f56",
       "balloon": "0 MB",
@@ -14483,13 +14455,22 @@
       "timesync": "Enabled"
     },
     "recipes": [
-
+      "learn_chef_httpd",
+      "learn_chef_httpd::default"
     ],
     "expanded_run_list": [
-
+      "learn_chef_httpd::default"
     ],
     "roles": [
 
-    ]
-  }
+    ],
+    "cookbooks": {
+      "learn_chef_httpd": {
+        "version": "0.1.0"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[learn_chef_httpd]"
+  ]
 }
