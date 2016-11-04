@@ -8,6 +8,7 @@ version '0.1.0'
 
 depends 'selinux', '~> 0.9'
 depends 'firewall', '~> 2.4'
+depends 'httpd', '~> 0.4'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link

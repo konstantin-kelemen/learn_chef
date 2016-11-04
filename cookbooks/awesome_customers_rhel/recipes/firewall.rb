@@ -4,7 +4,7 @@
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 
-ports = [22, 80]
+ports = node['awesome_customers_rhel']['open_ports']
 firewall_rule "open ports #{ports}" do
   port ports
 end
