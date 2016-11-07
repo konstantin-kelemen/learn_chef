@@ -9,6 +9,9 @@ version '0.1.0'
 depends 'selinux', '~> 0.9'
 depends 'firewall', '~> 2.4'
 depends 'httpd', '~> 0.4'
+depends 'mysql', '~> 7.0'
+depends 'mysql2_chef_gem', '~> 1.1'
+depends 'database', '~> 5.1'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link

@@ -4,6 +4,10 @@
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 
+# firewall 'default' do
+#   action :install
+# end
+
 ports = node['awesome_customers_rhel']['open_ports']
 firewall_rule "open ports #{ports}" do
   port ports
